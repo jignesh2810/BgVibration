@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-bgvibration" version="1.0.0">
+   <name>BgVibration</name>
+   <js-module name="BgVibration" src="www/BgVibration.js">
+      <clobbers target="BgVibration" />
+   </js-module>
+   <platform name="android">
+      <config-file parent="/*" target="res/xml/config.xml">
+         <feature name="BgVibration">
+            <param name="android-package" value="cordova.plugin.bgvibration.BgVibration" />
+         </feature>
+      </config-file>
+      <config-file parent="/*" target="AndroidManifest.xml" />
+      <source-file src="src/android/BgVibration.java" target-dir="src/cordova/plugin/bgvibration/BgVibration" />
+   </platform>
+</plugin>
+

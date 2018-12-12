@@ -1,0 +1,15 @@
+{
+  "name": "bgvibration",
+  "version": "1.0.0",
+  "description": "This plugin call to background vibraion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "background",
+    "vibration"
+  ],
+  "author": "Jignesh",
+  "license": "ISC"
+}
